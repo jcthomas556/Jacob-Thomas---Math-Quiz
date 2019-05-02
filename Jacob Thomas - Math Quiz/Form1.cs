@@ -34,8 +34,13 @@ namespace Jacob_Thomas___Math_Quiz
 
       int timeLeft;
 
+     
+
       public void StartTheQuiz()
       {
+       
+        
+
          // Fill in the addition problem.
          // Generate two random numbers to add.
          // Store the values in the variables 'addend1' and 'addend2'.
@@ -77,6 +82,7 @@ namespace Jacob_Thomas___Math_Quiz
          dividedRightLabel.Text = divisor.ToString();
          quotient.Value = 0;
 
+         
          //start the timer
          timeLabel.BackColor = Color.White;
          timeLeft = 30;
@@ -87,7 +93,10 @@ namespace Jacob_Thomas___Math_Quiz
 
       public Form1()
       {
+         DateTime dateTime = DateTime.UtcNow.Date;
          InitializeComponent();
+         dateLabel.Text = (dateTime.ToString("dd MMMM yyyy"));
+         //27 August 2020 
       }
 
       private void label1_Click(object sender, EventArgs e)
@@ -225,6 +234,26 @@ namespace Jacob_Thomas___Math_Quiz
       }
 
       private void minusLeftLabel_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void label5_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void label2_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void timeLabel_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void Form1_Load(object sender, EventArgs e)
       {
 
       }
