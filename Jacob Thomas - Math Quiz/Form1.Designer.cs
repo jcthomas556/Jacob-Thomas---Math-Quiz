@@ -305,11 +305,12 @@
          // 
          // dateLabel
          // 
+         this.dateLabel.AutoSize = true;
          this.dateLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
          this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
          this.dateLabel.Location = new System.Drawing.Point(21, 9);
          this.dateLabel.Name = "dateLabel";
-         this.dateLabel.Size = new System.Drawing.Size(244, 40);
+         this.dateLabel.Size = new System.Drawing.Size(2, 39);
          this.dateLabel.TabIndex = 22;
          // 
          // Form1
